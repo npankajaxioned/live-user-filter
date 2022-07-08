@@ -40,9 +40,7 @@ input[type='radio'] { vertical-align: text-bottom; }
 label,
 input[type='button'],
 input[type='submit'],
-button {
-  cursor: pointer;
-}
+button { cursor: pointer; }
 
 strong {
   font-weight: bold;
@@ -96,22 +94,47 @@ li {
   display: inline-block;
   list-style-type: none;
 }
+/* Common styling */
+.grey { color: #666; }
+.cap { text-transform: capitalize; }
+.up { text-transform: uppercase; }
+.center { text-align: center; }
+.bold { font-weight: bold; }
+.transition { transition: 1s all ease; }
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
+  max-width: 1350px;
   width: 86%; 
   margin: 0 auto;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*=================================
   Header styling starts here
 =================================*/
+header {
+  background-color: #3E57DB;
+  padding: 30px;
+  color: #FFF;
+}
 
+header h3 {
+  padding-bottom: 2px;
+  font-size: 20px;
+  font-weight: 700;
+}
 
-
-
-
-
+header p {
+  font-size: 14px;
+  opacity: 0.6;
+}
 /*=================================
   Header styling ends here
 =================================*/  
@@ -119,13 +142,48 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+.container { 
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
 
+.search-filter { 
+  width: 100%; 
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: #2B3D99;
+}
 
+.search-filter:focus { outline: 0;}
 
+.users {
+  max-height: 400px;
+  overflow-y: auto;
+}
 
+.users li { 
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid #EEE;
+}
 
+.users li:last-of-type { border-bottom: none; }
 
+.users img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
 
+.users .user-info {
+  margin-left: 10px;
+}
+
+li.hide { display: none;}
 
 /*=================================
   main styling ends here
