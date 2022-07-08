@@ -4,6 +4,7 @@ const listItems = [];
 var user_data ;
 async function get_user_data() {
   const characters = fetch('users.json');
+  console.log(characters)
   characters
   .then (data => data.json()) 
   .then (data => {

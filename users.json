@@ -1,0 +1,51 @@
+[{
+    "name": "Ryan Chu",
+    "location": "Woodstock, Canada",
+    "user_image": "Images/dummy.jpg"
+  },
+  {
+    "name": "Janet Gilbert",
+    "location": "Brighton and Hove, United Kingdom",
+    "user_image": "Images/dummy.jpg"
+  },
+  {
+    "name": "Jordan Howell",
+    "location": "Glendale, United States",
+    "user_image": "Images/dummy.jpg"
+  },
+  {
+    "name": "Johnny Burton",
+    "location": "Charleston, United States",
+    "user_image": "Images/dummy.jpg"
+  },
+  {
+    "name": "Peter Hamilton",
+    "location": "Newport, United Kingdom",
+    "user_image": "Images/dummy.jpg"
+  },
+  {
+    "name": "Gabe Brooks",
+    "location": "Stevenage, United Kingdom",
+    "user_image": "Images/dummy.jpg"
+  },
+  {
+    "name": "Eemil Tervo",
+    "location": "Juva, Finland",
+    "user_image": "Images/dummy.jpg"
+  },
+  {
+    "name": "Tim Arnaud",
+    "location": "Altstätten, Switzerland",
+    "user_image": "Images/dummy.jpg"
+  },
+  {
+    "name": "Janco Clements",
+    "location": "Drechterland, Netherlands",
+    "user_image": "Images/dummy.jpg"
+  },
+  {
+    "name": "Florence Cooper",
+    "location": "Auckland, New Zealand",
+    "user_image": "Images/dummy.jpg"
+  }
+  ]
